@@ -1,20 +1,3 @@
-/** {
-  width: tamaño;
-  height: tamaño;
-  padding: 10px;
-  padding-top: 10px;
-  padding-right: 13px;
-  padding-left: 15px;
-  padding-bottom: 5px;
-  padding: 10px 13px 5px 15px;
-  margin: 10px;
-  margin-top: 10px;
-  margin-right: 13px;
-  margin-left: 15px;
-  margin-bottom: 5px;
-  margin: 10px 13px 5px 15px;
-  border: 2px solid red;
-}*/
 
 body {
   font-family: 'Allerta', sans-serif;
@@ -273,7 +256,11 @@ input:focus, textarea:focus {
   margin: 50px 0;
 }
 
-
+/*
+* se puede hacer una condicional para que se den ciertos efectos
+* para este caso se usa cuando se esta viendo "screen" y cuando max-width es de maximo 800 px
+* esta forma de usar el mdeia queries es de forma interna
+*/
 @media screen and (max-width: 800px) {
   body {
     background: peru;
